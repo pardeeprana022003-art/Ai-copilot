@@ -1,0 +1,68 @@
+import { PricingPlan } from '../types';
+
+export const PRICING_PLANS: PricingPlan[] = [
+  {
+    id: 'plan_free',
+    name: 'FREE',
+    priceINR: 0,
+    billingPeriod: '/month',
+    description: 'Essential business health scanner and basic visibility for micro-entrepreneurs.',
+    features: [
+      'Basic Business Health Scanner (monthly)',
+      'Limited AI insights (3 per week)',
+      'Up to 50 customer CRM records',
+      'Community support',
+    ],
+    limitations: ['No automated AI employee execution', 'Single channel only'],
+  },
+  {
+    id: 'plan_starter',
+    name: 'STARTER',
+    priceINR: 599,
+    billingPeriod: '/month',
+    description: 'For growing single-location businesses looking to stop losing missed leads.',
+    recommended: false,
+    features: [
+      '3 Active AI Employees (Receptionist, Follow-Up, Reviews)',
+      'Customer insight summaries & recommendations',
+      'Review management & draft responses',
+      'Full analytics & trend detection',
+      'Up to 500 customer records',
+      'Follow-up opportunity queue',
+      'WhatsApp + Google Profile integration',
+    ],
+  },
+  {
+    id: 'plan_growth',
+    name: 'GROWTH',
+    priceINR: 1499,
+    billingPeriod: '/month',
+    description: 'The complete AI operations layer for high-performing Indian SMEs and retail outlets.',
+    recommended: true,
+    features: [
+      'All 7 AI Employees unlocked',
+      'Action Center with 1-click execution workflows',
+      'Advanced conversational AI Business Analyst',
+      'Unlimited customer CRM profiles',
+      'Omnichannel inbox (WhatsApp, IG, Web, Email)',
+      'Real-time automated sentiment alerts',
+      'Custom business goals & priority routing',
+      'Priority email & chat support',
+    ],
+  },
+  {
+    id: 'plan_pro',
+    name: 'PRO',
+    priceINR: 2499,
+    billingPeriod: '/month',
+    description: 'For multi-outlet brands, franchise chains, and high-volume business operations.',
+    features: [
+      'Multiple AI employee instances per location',
+      'Advanced autonomous approvals & safeguards',
+      'Custom API integrations & webhooks',
+      'Dedicated Customer Success Manager',
+      'Custom SLA & 99.9% uptime guarantee',
+      'Staff RBAC & Audit log compliance',
+    ],
+  },
+];

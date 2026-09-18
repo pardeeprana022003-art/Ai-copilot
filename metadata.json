@@ -1,0 +1,6 @@
+{
+  "name": "AI Business Autopilot",
+  "description": "Enterprise AI business operating platform with autonomous AI employees, Microsoft Power BI-equivalent core analytics engine (Power Query cleaning, DAX modeling, Q&A visual, AI insights), and omnichannel integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
